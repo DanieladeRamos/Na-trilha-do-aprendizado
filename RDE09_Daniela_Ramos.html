@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multimídia</title>
+</head>
+<body>
+    <p>
+        Multimídias: É uma forma de comunicação que combina diferentes formas de conteúdo áudio, imagens, animações ou vídeo em uma única apresentação.
+    </p>
+    <p>Tag iframe: A tag iframe é usada para incorporar outro documento ao documento HTML.</p>
+    <p>Site IFPR</p>
+    <iframe src="http://irati.ifpr.edu.br" width="300" weight="300"></iframe>
+    <p>Youtube</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/lBPqob1QYL4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <p>Tag vídeo: coloca um vídeo do armazenamento local.</p>
+    <video poster="Bike.jpg"> <source src="_Bike.mp4" type="video/mp4"> 
+    <source src="Bike.ogv" type="video/ogv">
+    <source src="Bike.webm" type="video/webm">    
+    </video>
+    <p>Tag de áudio</p>
+    <audio preload="metadata" controls>
+        <source src="Hey Sailor - Letter Box.mp3" type="video/mp4">
+        <source src="Hey Sailor - Letter Box.ogg" type="video/ogg">
+        <source src="Hey-Sailor-Letter-Box.wav" type="video/wav">
+    </audio>
+    <p>Tag Imagem</p>
+    <picture>
+        <source media="(max-width:500px)" srcset="bike_110.jpg">
+        <source media="(max-width:700px)" srcset="bike_320.jpg">
+        <source media="(max-width:1000px)" srcset="bike_640.jpg">
+        <img src="bike_full.jpg" alt="Por do sol">
+    </picture>
+</body>
+</html>
